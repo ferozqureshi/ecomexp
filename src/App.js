@@ -4,8 +4,8 @@ import { Footer } from "./Mycomponents/Footer";
 import { Transit } from "./Mycomponents/Transit";
 import { useState } from "react";
 import { AddOrders } from "./Mycomponents/AddOrders";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Orders } from "./Mycomponents/Orders";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import { Welcome } from "./Mycomponents/Welcome";
 function App() {
   let initialOrder;
