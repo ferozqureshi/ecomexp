@@ -24,7 +24,7 @@ function App() {
   };
   const addOrders = (orderName, orderDescription, To, From, ToAddress) => {
     let sno;
-    if (packages.length == 0) {
+    if (packages.length === 0) {
       sno = 1;
     } else {
       sno = packages[packages.length - 1] + 1;
